@@ -1,0 +1,3 @@
+﻿Get Credentials workflow tested - no exception expected
+take screenshot workflow tested - no exception expected-continue on error enabled-it created screenshot folder if already not exists
+send email workflow

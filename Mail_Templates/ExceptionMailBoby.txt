@@ -1,0 +1,6 @@
+<html>
+<head></head>
+<body>
+Hi Team,<br/><br/>Exception occurred in bot.<br/>{0}<br/><br/>Regards,<br/>RPA Bot
+</body>
+</html>

@@ -1,0 +1,104 @@
+{
+  "name": "CalculateClientSecurityHash_Bot",
+  "description": "CalculateClientSecurityHash",
+  "main": "Main.xaml",
+  "dependencies": {
+    "Microsoft.Activities": "[1.0.1]",
+    "Outlook.Mail.Activities": "[1.0.2]",
+    "OutlookActivities": "[1.1.1]",
+    "OutlookMailWithExcel.Activities": "[1.0.0]",
+    "RetrieveOutlookMails.Activities": "[1.0.0]",
+    "System.IO.FileSystem": "[4.3.0]",
+    "System.IO.FileSystem.Primitives": "[4.3.0]",
+    "UiPath.Credentials.Activities": "[1.1.6479.13204]",
+    "UiPath.Excel.Activities": "[2.10.4]",
+    "UiPath.System.Activities": "[21.4.1]",
+    "UiPath.Testing.Activities": "[1.4.1-preview]",
+    "UiPath.UIAutomation.Activities": "[21.4.4]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.4.4.0",
+  "projectVersion": "1.0.1",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e4289485-73b6-40d5-b4b1-f060e0a5d319",
+        "fileName": "System1\\System1Login-TestCase1.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "ce29e711-13e7-4778-b324-c2f2e2e449e9",
+        "fileName": "Framework\\TakeScreenshot-TestCase-V1.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "647e648b-3694-4833-9063-4bb3f903748e",
+        "fileName": "Framework\\GetAppCredentials-TestCase1.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "12a8fe45-cb7f-4a93-817f-06c00c33918e",
+        "fileName": "Framework\\sendEmail-TestCase1.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "61e5c4a2-8aff-44da-af28-0e2e499c213e",
+        "fileName": "System1\\System1Logout-TestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "fe47ef7d-535a-4005-99ec-dd9bf4fced8c",
+        "fileName": "SHA1Online\\SHA1OnlineLogin-TestCase1.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "0c85f8bb-d6a8-45d5-a610-d9f163a402bd",
+        "fileName": "SHA1Online\\SHA1OnlineLogout-TestCase1.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "018267dc-e843-40c1-bdc6-719ab8212de3",
+        "fileName": "System1\\System1_UpdateWorkItem_TestCase1.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "CSharp",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "40469d27-3e30-43b7-888a-ff8de198cbfa",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
